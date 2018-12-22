@@ -16,7 +16,7 @@ fn main() {
     let matches = App::new("Corm")
         .version("0.0.1")
         .author("Jacob Odgård Tørring <jacob.torring@gmail.com>")
-        .about("Safe alternative to rm, written in Rust")
+        .about("Safe wrapper for rm written in Rust")
         .setting(AppSettings::ColoredHelp)
         .setting(AppSettings::SubcommandsNegateReqs)
 

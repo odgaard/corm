@@ -1,0 +1,22 @@
+
+    //println!("Deleting this file: {}", files[0]);
+/*
+
+    let output = if cfg!(target_os = "windows") {
+        Command::new("cmd")
+                .args(&["/C", "echo hello"])
+                .output()
+                .expect("failed to execute process")
+    } else {
+
+        let mut owned_string: String = "rm ".to_owned();
+        let another_string: String = files[0].to_owned();
+        owned_string.push_str(&another_string);
+
+        Command::new("sh")
+                .arg("-c")
+                .arg(owned_string)
+                .output()
+                .expect("failed to execute process")
+   };
+   println!("{}", String::from_utf8_lossy(&output.stdout));*/
